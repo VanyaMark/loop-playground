@@ -28,3 +28,33 @@ let hora_actual = 8;
 let hora_dormir = 24;
 
 // Resultado esperado aproximado: https://oscarm.tinytake.com/msc/ODc4NTEzNl8yMjIwNTc2Nw
+
+for (let i = hora_actual; i <= hora_dormir; i++) {
+    switch(i) {
+        case 8:
+            console.log(`A las ${i}, el sim se despierta.`);
+            break;
+        case 9:
+            console.log(`A las ${i}, el sim desayuna.`);
+            break;
+        case 10:
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+        case 16:
+        case 17:
+        case 18:
+        case 19:
+        case 20:
+        case 21:
+        case 22:
+        case 23:
+            console.log(`A las ${i}, el sim estudia Front End`);
+            break;
+        case 24:
+            console.log(`A las ${i}, el sim se va a dormir`);
+            break;
+    }
+}
