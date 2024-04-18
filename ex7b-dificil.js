@@ -22,5 +22,9 @@ for (let i = 1; i <= 10; i++) {
  * Por ejemplo, para tablaDel = 1, deberia mostrar toda la tabla de multiplicar del 1. Para tablaDel = 2, deberia mostrar la tabla de multiplicar del 2. etc.
  */
 
-let tablaDel = 1;
+let tablaDel = 6;
 // for...
+console.log(`Tabla de multiplicar de ${tablaDel}`)
+for (let i = 1; i <=10; i++) {
+    console.log(`${tablaDel} * ${i} = ${tablaDel * i}`)
+}
